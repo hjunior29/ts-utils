@@ -1,3 +1,4 @@
+/** Pad on the left by Unicode code points without truncating the input. */
 export function padLeft(
   input: string,
   targetLength: number,
@@ -6,7 +7,7 @@ export function padLeft(
   if (!Number.isInteger(targetLength) || targetLength < 0) {
     throw new Error('Target length must be a non-negative integer.');
   }
-  if (padChar.length !== 1) {
+  if (Array.from(padChar).length !== 1) {
     throw new Error('Padding character must be a single character string.');
   }
   const codePoints = Array.from(input);

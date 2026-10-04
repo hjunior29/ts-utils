@@ -26,11 +26,13 @@ wordCount("hello world"); // 2
 clampInt(12, 0, 10); // 10
 ```
 
-## Initial utilities
+## Utilities
 
 - `reverseString` reverses Unicode code points.
 - `wordCount` counts whitespace-separated words.
 - `clampInt` clamps an integer to inclusive bounds and rejects reversed bounds.
+
+- `padLeft` pads strings on the left by Unicode code points, including emoji padding.
 
 ## Adding utilities
 

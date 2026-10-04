@@ -50,3 +50,10 @@ test('throws error when padChar is empty', () => {
     padLeft('abc', 5, '');
   }, /Padding character must be a single character string\./);
 });
+
+test('counts Unicode code points in input and padding', () => {
+  assert.equal(padLeft('😀', 3, '🦀'), '🦀🦀😀');
+  assert.equal(padLeft('😀', 1, 'x'), '😀');
+  assert.equal(padLeft('', 2, '🦀'), '🦀🦀');
+  assert.throws(() => padLeft('a', 2, '🦀x'));
+});

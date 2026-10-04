@@ -10,9 +10,11 @@ Node.js 22 or newer and npm.
 
 ```sh
 npm ci
-npm run build
-npm test
+npm run format
+npm run check
 ```
+
+Biome formats the source and tests, organizes imports, and applies safe lint fixes. `npm run lint` checks formatting and lint without modifying files.
 
 ## Usage
 

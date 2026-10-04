@@ -7,11 +7,15 @@
   "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "npm run build && node --test dist/tests/*.test.js"
+    "test": "npm run build && node --test dist/tests/*.test.js",
+    "format": "biome check --write src tests",
+    "lint": "biome check --error-on-warnings src tests",
+    "check": "npm run lint && npm test"
   },
   "devDependencies": {
     "typescript": "5.9.3",
-    "@types/node": "22.20.5"
+    "@types/node": "22.20.5",
+    "@biomejs/biome": "2.5.15"
   },
   "engines": {
     "node": ">=22"

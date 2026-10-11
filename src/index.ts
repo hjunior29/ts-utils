@@ -1,5 +1,6 @@
 export { clampInt } from './clamp_int';
 export { frequenciesInts } from './frequencies_ints';
+export { hammingDistance } from './hamming_distance';
 export { isBlank } from './is_blank';
 export { padLeft } from './pad_left';
 export { reverseString } from './reverse_string';

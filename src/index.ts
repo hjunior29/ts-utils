@@ -1,4 +1,5 @@
 export { clampInt } from './clamp_int';
+export { commonPrefix } from './common_prefix';
 export { frequenciesInts } from './frequencies_ints';
 export { hammingDistance } from './hamming_distance';
 export { isBlank } from './is_blank';

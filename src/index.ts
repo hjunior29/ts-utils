@@ -1,6 +1,7 @@
 export { clampInt } from './clamp_int';
 export { commonPrefix } from './common_prefix';
 export { fibonacci } from './fibonacci';
+export { flattenInts } from './flatten_ints';
 export { frequenciesInts } from './frequencies_ints';
 export { hammingDistance } from './hamming_distance';
 export { isBlank } from './is_blank';

@@ -5,6 +5,7 @@ export { flattenInts } from './flatten_ints';
 export { frequenciesInts } from './frequencies_ints';
 export { hammingDistance } from './hamming_distance';
 export { isBlank } from './is_blank';
+export { isPrime } from './is_prime';
 export { padLeft } from './pad_left';
 export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';

@@ -7,6 +7,7 @@ export { hammingDistance } from './hamming_distance';
 export { isBlank } from './is_blank';
 export { isPrime } from './is_prime';
 export { padLeft } from './pad_left';
+export { partitionInts } from './partition_ints';
 export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';
 export { wordCount } from './word_count';

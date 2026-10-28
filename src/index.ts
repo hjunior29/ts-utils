@@ -10,4 +10,5 @@ export { padLeft } from './pad_left';
 export { partitionInts } from './partition_ints';
 export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';
+export { toSnakeCase } from './to_snake_case';
 export { wordCount } from './word_count';

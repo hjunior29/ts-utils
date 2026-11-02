@@ -10,6 +10,7 @@ export { isBlank } from './is_blank';
 export { isPrime } from './is_prime';
 export { isSortedInts } from './is_sorted_ints';
 export { padLeft } from './pad_left';
+export { padRight } from './pad_right';
 export { partitionInts } from './partition_ints';
 export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';

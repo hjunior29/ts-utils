@@ -9,6 +9,7 @@ export { hammingDistance } from './hamming_distance';
 export { isBlank } from './is_blank';
 export { isPrime } from './is_prime';
 export { isSortedInts } from './is_sorted_ints';
+export { meanInts } from './mean_ints';
 export { padLeft } from './pad_left';
 export { padRight } from './pad_right';
 export { partitionInts } from './partition_ints';

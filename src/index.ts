@@ -1,5 +1,6 @@
 export { clampInt } from './clamp_int';
 export { commonPrefix } from './common_prefix';
+export { deduplicateInts } from './deduplicate_ints';
 export { dropInts } from './drop_ints';
 export { factorial } from './factorial';
 export { fibonacci } from './fibonacci';

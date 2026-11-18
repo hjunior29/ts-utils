@@ -19,6 +19,7 @@ export { partitionInts } from './partition_ints';
 export { removeSuffix } from './remove_suffix';
 export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';
+export { slugify } from './slugify';
 export { sumDigits } from './sum_digits';
 export { toSnakeCase } from './to_snake_case';
 export { wordCount } from './word_count';

@@ -16,6 +16,7 @@ export { meanInts } from './mean_ints';
 export { padLeft } from './pad_left';
 export { padRight } from './pad_right';
 export { partitionInts } from './partition_ints';
+export { rangeInts } from './range_ints';
 export { removeSuffix } from './remove_suffix';
 export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';

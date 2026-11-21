@@ -3,6 +3,7 @@ export { commonPrefix } from './common_prefix';
 export { commonSuffix } from './common_suffix';
 export { deduplicateInts } from './deduplicate_ints';
 export { dropInts } from './drop_ints';
+export { escapeHtml } from './escape_html';
 export { factorial } from './factorial';
 export { fibonacci } from './fibonacci';
 export { flattenInts } from './flatten_ints';

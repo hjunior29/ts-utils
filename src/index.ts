@@ -1,6 +1,7 @@
 export { clampInt } from './clamp_int';
 export { commonPrefix } from './common_prefix';
 export { commonSuffix } from './common_suffix';
+export { countLines } from './count_lines';
 export { deduplicateInts } from './deduplicate_ints';
 export { dropInts } from './drop_ints';
 export { escapeHtml } from './escape_html';

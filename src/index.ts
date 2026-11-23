@@ -25,5 +25,6 @@ export { reverseString } from './reverse_string';
 export { rotateInts } from './rotate_ints';
 export { slugify } from './slugify';
 export { sumDigits } from './sum_digits';
+export { takeInts } from './take_ints';
 export { toSnakeCase } from './to_snake_case';
 export { wordCount } from './word_count';

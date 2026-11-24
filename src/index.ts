@@ -27,4 +27,5 @@ export { slugify } from './slugify';
 export { sumDigits } from './sum_digits';
 export { takeInts } from './take_ints';
 export { toSnakeCase } from './to_snake_case';
+export { truncateString } from './truncate_string';
 export { wordCount } from './word_count';

@@ -15,6 +15,7 @@ export { isBlank } from './is_blank';
 export { isPalindrome } from './is_palindrome';
 export { isPrime } from './is_prime';
 export { isSortedInts } from './is_sorted_ints';
+export { maskString } from './mask_string';
 export { meanInts } from './mean_ints';
 export { padLeft } from './pad_left';
 export { padRight } from './pad_right';
